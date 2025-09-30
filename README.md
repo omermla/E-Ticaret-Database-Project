@@ -3,12 +3,14 @@
 Bu proje, SQL Server kullanılarak geliştirilmiş bir e-ticaret veritabanı uygulamasıdır.
 Amaç; gerçek bir online alışveriş platformunu (Trendyol, Hepsiburada, Amazon benzeri) simüle ederek veritabanı tasarımı, veri ekleme, sorgulama, güncelleme, silme, trigger ve raporlama uygulamalarını göstermektir.
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🔧 Kullanılan Teknolojiler:
 
 *SQL Server (T-SQL)
 
 *SSMS (SQL Server Management Studio)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🗂 Veritabanı Tabloları
 
@@ -24,6 +26,7 @@ Amaç; gerçek bir online alışveriş platformunu (Trendyol, Hepsiburada, Amazo
 
 📊 Siparis_Detay → Sipariş detayları (Ürün, Adet, Birim Fiyat)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📷 ER Diyagramı
 
@@ -37,6 +40,8 @@ Trigger ile stok takibi (Sipariş sonrası stok otomatik azalır)
 
 UPDATE / DELETE işlemleri (müşteri ve ürün yönetimi)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ***Raporlama sorguları:
 
 -En çok sipariş veren müşteriler
@@ -49,6 +54,7 @@ UPDATE / DELETE işlemleri (müşteri ve ürün yönetimi)
 
 -Aylık satış istatistikleri
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📊 Örnek Raporlama Sorgusu
 
